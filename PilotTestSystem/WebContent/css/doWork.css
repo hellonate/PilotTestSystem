@@ -1,0 +1,59 @@
+.DoWork{
+position:absolute;
+width:800px;
+height:300px;
+top:100px;
+left:100px;
+background-color:#F0AD4E;
+}
+.DoWork .Question{
+	position: absolute;
+	width:600px;
+	height: 30px;
+	left: 150px;
+	top:15px;
+	background: #357EBD;
+}
+.DoWork .Answer_1{
+	position: absolute;
+	width:600px;
+	height:30px;
+	left: 150px;
+	top:55px;
+	background:#5BC0DE;
+}
+.DoWork .Answer_2{
+	position: absolute;
+	width:600px;
+	height:30px;
+	left: 150px;
+	top:95px;
+	background:#5BC0DE;
+}
+.DoWork .Answer_3{
+	position: absolute;
+	width:600px;
+	height:30px;
+	left: 150px;
+	top:140px;
+	background:#5BC0DE;
+}
+
+.DoWork .Answer_4{
+	position: absolute;
+	width:600px;
+	height:30px;
+	left: 150px;
+	top:185px;
+	background:#5BC0DE;
+}
+.DoWork #Answer_5{
+	position: absolute;
+	width:600px;
+	height:30px;
+	left: 150px;
+	top:240px;
+	background:#5BC0DE;
+	
+}
+

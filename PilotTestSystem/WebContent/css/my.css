@@ -1,0 +1,297 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td 
+{
+	margin: 0;
+	padding: 0;
+}
+li{
+	margin-left:10px;
+ 	float: left;
+ 	list-style-type:none;
+}
+
+a:link{
+	color: #333;
+	text-decoration: none;
+}
+ a:visited{
+	color: #333;
+	text-decoration: none;
+}
+ a:hover{
+	color: #7FFFD4;
+}
+
+ a:active{
+	color: #7FFFD4;
+}
+.top {
+	position:absolute;
+	width:100%;
+	height:80px;
+	background:url(../img/top_5.png) no-repeat;
+}
+/*.top .top_pic{
+	position: absolute;
+	width:180px;
+	height:80px;
+	left:1000px;
+	background-image: url(../img/player2.png);
+	background-repeat: no-repeat;
+	background-color: #000000;
+}*/
+/*.top .top_pic_2{
+	position: absolute;
+	width:300px;
+	height:80px;
+	left:200px;
+	top:0px;
+	background-image: url(../img/planefuben3.png);
+	background-repeat: no-repeat;
+	background-color: #000000;
+	
+}*/
+.top .header{
+	position: absolute;
+	width:900px;
+	height:60px ;
+	top: 40px;
+	left: 600px;
+	/*background-color: #245269;*/
+}
+
+.top .header .navbar{
+	position:absolute;
+	float: left;
+	margin-left: 150px;
+	margin-top:30px;
+	/*padding-top: 10px;*/
+	vertical-align: middle;
+	text-decoration: none;
+	/*background-color: #3071A9;*/
+ }
+ .top .header .navbar_righter{
+ 	position:absolute;
+ 	float: left;
+ 	width:200px;
+ 	left:400px;
+ 	margin-top: -25px;
+	/*text-decoration: none;*/
+ 	background-color: #449D44;
+ 	z-index: 1001;
+ }
+ /**
+  	主页面中间部分
+  **/
+.mid{
+	position: absolute;
+	top:80px;/**图片的宽度为80px**/
+	width:100%;
+	height:600px;
+	/*background-color: #5BC0DE;*/
+}
+.mid .login {
+ 	position:absolute;
+ 	top:80px;
+ 	left:900px;
+	z-index: 30;
+	height:400px;
+	width:300px;
+	border-radius: 20px;
+	background-color:azure;
+}
+.mid .login .form_head{
+	position:absolute;
+	width:100%;
+	top:10px;
+	height:100px;
+	background: url(../img/barge.png) no-repeat 60px 0;
+}
+.mid .login .form_head .user_choose_1{
+	position:relative;
+	float:left;
+	width: 50%;
+	margin-left:70px;
+	margin-top: 65px;
+}
+.mid .login .form_head .user_choose_2{
+	position:absolute;
+	margin-left:160px;
+	margin-top: 65px;
+}
+.mid .login .form_manager{
+	position: absolute;
+	width: 100%;
+	margin-top: 110px ;
+	height: 250px;
+	background-color: #269ABC;
+}
+.mid .login .form_manager .input_1 {
+	position:relative;
+	top:30px;
+	left:30px;
+}
+.mid .login .form_manager .input_2 {
+	position:relative;
+	top:50px;
+	left:30px;
+}
+.mid .login .form_manager .forget_pass{
+	position: relative;
+	top: 60px;
+	left: 160px;
+	
+}
+.mid .login .form_manager .pass_check {
+	position:relative;
+	width:150px ;
+	top:70px;
+	left:30px;
+}
+.mid .login .form_manager .yanzhengma{
+	position: relative;
+	width: 60px;
+	height: 25px;
+	top: 43px;
+	left: 175px;
+	background-color: #BCE8F1;
+}
+
+.mid .login .form_manager .btn-success{
+	position:absolute;
+	top: 190px;
+	left: 60px;
+	/*width: 85px;
+	height: 30px;
+	border-radius: 4px;
+	background-color:rgb(0,167,222);*/
+}
+.mid .login .form_manager .btn-warning{
+	position:absolute;
+	top:190px;
+	left: 180px;
+	/*width: 85px;
+	height: 30px;
+	/*border-radius: 4px;*/*/
+}
+	/*注册框的样式*/
+.mid .register{
+	position:absolute;
+ 	top:80px;
+ 	left:900px;
+	z-index: 30;
+	height:400px;
+	width:300px;
+	border-radius: 20px;
+	background-color:azure;
+	}
+.mid .register .register_pic{
+	position:absolute;
+	width:100%;
+	height:60px;
+	top:10px;
+	/*background-color: #000000;*/
+	background: url(../img/barge.png) no-repeat 60px 0;
+}
+.mid .register .backg{
+	position: absolute;
+	width: 100%;
+	margin-top: 60px;
+	height: 300px;
+	background-color: #269ABC;
+	
+}
+.mid .register .backg .register_form{
+		position:absolute;
+		width: 100%;
+		left: 70px;
+	
+	}
+#doublebutton-0{
+	position: absolute;
+	left:0px ;
+	top: 250px;
+}
+#doublebutton2-0{
+	position: absolute;
+	left: 100px;
+	top: 250px;
+}
+/**
+ 	主页面底部的样式
+ **/
+.bottom {
+	position:absolute;
+	width:100%;
+	height:60px;
+	top: 700px;
+	/*background-color:#AC2925;*/
+}
+.bottom .footer{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+.bottom .footer .navbar_bottom{
+	position:absolute;
+	width: 300px;
+	height:50px;
+ 	float:left;
+ 	left: 600px;
+ 	margin-top: 35px;
+ 	/*background-color: #269ABC;*/
+}
+/*接下来是manager_user.html的样式*/
+.nav_top_pic{
+	position: absolute;
+	left:20px;
+	top:30px;
+	width: 200px;
+	height: 80px;
+	background-image: url(../img/barge.png);
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+.user_show{
+	position: absolute;
+	width: 150px;
+	height: 60px;
+	left: 250px;
+	top: 100px;
+	z-index: 10;
+}
+.dropdown_0{
+	position: absolute;
+	left: 600px;
+	top: 45px;
+	z-index: 10;
+}
+.dropdown_1{
+	position: absolute;
+	left: 700px;
+	top: 45px;
+	z-index: 10;
+}
+.dropdown_2{
+	position: absolute;
+	left: 800px;
+	top: 45px;
+	z-index: 10;
+}
+.dropdown_3{
+	position: absolute;
+	left: 900px;
+	top: 45px;
+	z-index: 10;
+}
+
+.dropdown_4{
+	position: absolute;
+	left: 1000px;
+	top: 45px;
+	z-index: 10;
+}
+.search_1{
+	position: absolute;
+	left: 1200px;
+	top: 45px;
+}

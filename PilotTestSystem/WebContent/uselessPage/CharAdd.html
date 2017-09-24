@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/ll.css" /> 
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+	</head>
+	<body>
+		<div class="add">
+			<table width="600" height="120" align="center" border="2" bordercolor="#5BC0DE"
+				cellspacing="5" cellpadding="10" bgcolor="#5BC0DE">
+				<caption>
+					<h2>添加章节</h2>
+				</caption>
+					<tr>章节名称
+						<td>章节名称</td>
+						<td>章节介绍名称</td>
+					</tr>
+					<tr bgcolor="#C9E2B3" height="60" width="100" align="center">
+					<td><input type="text"  style="width:200px;height:50px"/></td>
+					<td><input type="text"  style="width:200px;height:50px"/></td>
+					</tr>
+			</table>
+			<form action="DealServlet" method="post">
+			<div class="bt" align="center">
+				<div class="bt1">
+			 		<input type="submit" name="submit" value="添加" 
+			 			style="height:50px; width:80px; font-size: 20px; border-color: #D9EDF7; background-color:#3278B3; display:inline-block;"/>
+				</div>
+				<div class="bt2">
+					<input type="reset" name="submit" value="取消" 
+						style="height:50px; width:80px; font-size: 20px; border-color: #D9EDF7; background-color: #5E5E5E; display:inline-block;"/>
+				</div>
+			</div>
+			</form>
+		</div>		
+	</body>
+</html>

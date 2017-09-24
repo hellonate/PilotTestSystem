@@ -1,0 +1,82 @@
+.body .div{
+	margin: 0;
+	padding:0;
+}
+.middle{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 600px;
+	/*background-color: #A6E1EC;*/
+	background:   -webkit-gradient(linear,  left  top,  right  bottom,color-stop(0%,#5BC0DE),  color-stop(33%,#C4E3F3),  color-stop(69%,#A6E1EC),  color-stop(100%,#31B0D5));
+}
+
+.middle .welcome{
+	position: absolute;
+	width: 800px;
+	height: 400px;
+	top: 40px;
+	left: 216px;
+	/*background-color:#000000;*/
+	z-index: 10;
+	font-family: "微软雅黑";
+	/*font-size: medium;*/
+}
+
+.middle .welcome .operate{
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	/*background-color: #5CB85C;*/
+	z-index: 10;
+}
+
+.middle .welcome .search{
+	position: absolute;
+	width: 40%;
+	height: 40px;
+	left: 605px;
+	/*background-color: #AC2925;*/
+	z-index: 10;
+}
+
+.middle .welcome .table{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 40px;
+	left: auto;
+	/*background-color: #DFF0D8;*/
+	z-index: 10;
+}
+
+/*.middle .information_0{
+	position: absolute;
+	width: 70%;
+	height: 500px;
+	top: 100px;
+	left: 216px;
+	background-color: #F8F8F8;
+	z-index: 10;
+	font-family: "微软雅黑";
+	font-size: medium;
+}*/
+
+.middle .information{
+	position: absolute;
+	width: 70%;
+	height: 500px;
+	top: 70px;
+	left: 216px;
+	/*background-color:#000000 ;*/
+	z-index: 10;
+}
+
+.bottom{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	top: 688px;
+	background-color: #B2DBA1;
+}
